@@ -22,7 +22,7 @@
         <img alt="Lencana Daring" src="https://img.shields.io/badge/Online-Demo-4e6b99">
     </a>
     <a href="https://hub.docker.com/r/infiniflow/ragflow" target="_blank">
-        <img src="https://img.shields.io/badge/docker_pull-ragflow:v0.15.1-brightgreen" alt="docker pull infiniflow/ragflow:v0.15.1">
+        <img src="https://img.shields.io/badge/docker_pull-ragflow:v0.16.0-brightgreen" alt="docker pull infiniflow/ragflow:v0.16.0">
     </a>
     <a href="https://github.com/infiniflow/ragflow/releases/latest">
         <img src="https://img.shields.io/github/v/release/infiniflow/ragflow?color=blue&label=Rilis%20Terbaru" alt="Rilis Terbaru">
@@ -75,6 +75,7 @@ Coba demo kami di [https://demo.ragflow.io](https://demo.ragflow.io).
 
 ## 🔥 Pembaruan Terbaru
 
+- 2025-02-05 Memperbarui daftar model 'SILICONFLOW' dan menambahkan dukungan untuk Deepseek-R1/DeepSeek-V3.
 - 2025-01-26 Optimalkan ekstraksi dan penerapan grafik pengetahuan dan sediakan berbagai opsi konfigurasi.
 - 2024-12-18 Meningkatkan model Analisis Tata Letak Dokumen di Deepdoc.
 - 2024-12-04 Mendukung skor pagerank ke basis pengetahuan.
@@ -165,7 +166,7 @@ Coba demo kami di [https://demo.ragflow.io](https://demo.ragflow.io).
 
 3. Bangun image Docker pre-built dan jalankan server:
 
-   > Perintah di bawah ini mengunduh edisi v0.15.1-slim dari gambar Docker RAGFlow. Silakan merujuk ke tabel berikut untuk deskripsi berbagai edisi RAGFlow. Untuk mengunduh edisi RAGFlow yang berbeda dari v0.15.1-slim, perbarui variabel RAGFLOW_IMAGE di docker/.env sebelum menggunakan docker compose untuk memulai server. Misalnya, atur RAGFLOW_IMAGE=infiniflow/ragflow:v0.15.1 untuk edisi lengkap v0.15.1.
+   > Perintah di bawah ini mengunduh edisi v0.16.0-slim dari gambar Docker RAGFlow. Silakan merujuk ke tabel berikut untuk deskripsi berbagai edisi RAGFlow. Untuk mengunduh edisi RAGFlow yang berbeda dari v0.16.0-slim, perbarui variabel RAGFLOW_IMAGE di docker/.env sebelum menggunakan docker compose untuk memulai server. Misalnya, atur RAGFLOW_IMAGE=infiniflow/ragflow:v0.16.0 untuk edisi lengkap v0.16.0.
 
    ```bash
    $ cd ragflow
@@ -174,8 +175,8 @@ Coba demo kami di [https://demo.ragflow.io](https://demo.ragflow.io).
 
    | RAGFlow image tag | Image size (GB) | Has embedding models? | Stable?                  |
    | ----------------- | --------------- | --------------------- | ------------------------ |
-   | v0.15.1           | &approx;9       | :heavy_check_mark:    | Stable release           |
-   | v0.15.1-slim      | &approx;2       | ❌                    | Stable release           |
+   | v0.16.0           | &approx;9       | :heavy_check_mark:    | Stable release           |
+   | v0.16.0-slim      | &approx;2       | ❌                    | Stable release           |
    | nightly           | &approx;9       | :heavy_check_mark:    | _Unstable_ nightly build |
    | nightly-slim      | &approx;2       | ❌                    | _Unstable_ nightly build |
 

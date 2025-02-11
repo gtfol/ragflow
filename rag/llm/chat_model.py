@@ -1358,7 +1358,7 @@ class AnthropicChat(Base):
                 stream=True,
                 **gen_conf,
             )
-            for res in response.iter_lines():
+            for res in response:
                 if res.type == 'content_block_delta':
                     text = res.delta.text
                     ans += text
@@ -1375,7 +1375,7 @@ class GoogleChat(Base):
         from google.oauth2 import service_account
         import base64
 
-        key = json.load(key)
+        key = json.loads(key)
         access_token = json.loads(
             base64.b64decode(key.get("google_service_account_key", ""))
         )
