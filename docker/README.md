@@ -28,7 +28,7 @@ The [.env](./.env) file contains important environment variables for Docker.
 - `STACK_VERSION`  
   The version of Elasticsearch. Defaults to `8.11.3`
 - `ES_PORT`  
-  The port used to expose the Elasticsearch service to the host machine, allowing **external** access to the service running inside the Docker container.  Defaults to `1200`.
+  The port used to expose the Elasticsearch service to the host machine, allowing **external** access to the service running inside the Docker container.  Defaults to `9200`.
 - `ELASTIC_PASSWORD`  
   The password for Elasticsearch.
 

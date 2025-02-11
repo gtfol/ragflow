@@ -464,7 +464,7 @@ export default {
       ttsTip:
         'Để phát giọng nói bằng cách chuyển đổi giọng nói, vui lòng chọn TTS (mô hình chuyển đổi giọng nói) trong cài đặt trước.',
       relatedQuestion: 'Câu hỏi liên quan',
-      answerTitle: 'TL',
+      answerTitle: 'Trả lời',
       multiTurn: 'Tối ưu hóa đa lượt',
       multiTurnTip:
         'Trong các cuộc trò chuyện nhiều vòng, truy vấn vào cơ sở kiến thức được tối ưu hóa. Mô hình lớn sẽ được gọi để sử dụng thêm các token.',

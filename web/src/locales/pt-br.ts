@@ -435,7 +435,7 @@ export default {
       ttsTip:
         'Certifique-se de selecionar um modelo TTS na página Configurações antes de habilitar esta opção para reproduzir texto como áudio.',
       relatedQuestion: 'Pergunta relacionada',
-      answerTitle: 'R',
+      answerTitle: 'Resposta',
       multiTurn: 'Otimização de múltiplas interações',
       multiTurnTip:
         'Isso otimiza as consultas dos usuários usando o contexto em uma conversa de múltiplas rodadas. Quando ativado, consumirá tokens adicionais do LLM.',

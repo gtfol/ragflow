@@ -445,7 +445,7 @@ export default {
       ttsTip:
         'Untuk memutar suara menggunakan konversi suara, silakan pilih TTS (model konversi ucapan) di pengaturan terlebih dahulu.',
       relatedQuestion: 'Pertanyaan terkait',
-      answerTitle: 'R',
+      answerTitle: 'Respon',
       multiTurn: 'Optimasi multi-putaran',
       multiTurnTip:
         'Dalam percakapan multi-putaran, kueri ke basis pengetahuan dioptimalkan. Model besar akan dipanggil untuk mengonsumsi token tambahan.',

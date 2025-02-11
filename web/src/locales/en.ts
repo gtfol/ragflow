@@ -511,7 +511,7 @@ This procedure will improve precision of retrieval by adding more information to
       ttsTip:
         'Ensure you select a TTS model on the Settings page before enabling this toggle to play text as audio.',
       relatedQuestion: 'Related question',
-      answerTitle: 'R',
+      answerTitle: 'Response',
       multiTurn: 'Multi-turn optimization',
       multiTurnTip:
         'This optimizes user queries using context in a multi-round conversation. When enabled, it will consume additional LLM tokens.',

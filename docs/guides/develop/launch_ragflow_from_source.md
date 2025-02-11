@@ -68,7 +68,7 @@ docker compose -f docker/docker-compose-base.yml up -d
    127.0.0.1       es01 infinity mysql minio redis
    ```
 
-2. In **docker/service_conf.yaml.template**, update mysql port to `5455` and es port to `1200`, as specified in **docker/.env**.
+2. In **docker/service_conf.yaml.template**, update mysql port to `5455` and es port to `9200`, as specified in **docker/.env**.
 
 ### Launch the RAGFlow Backend Service
 

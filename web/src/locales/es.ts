@@ -274,7 +274,7 @@ export default {
       ttsTip:
         'Para reproducir la voz utilizando conversión de voz, selecciona primero el modelo TTS (conversión de texto a voz) en la configuración.',
       relatedQuestion: 'Pregunta relacionada',
-      answerTitle: 'R',
+      answerTitle: 'Respuesta',
       multiTurn: 'Optimización de múltiples turnos',
       multiTurnTip:
         'En conversaciones de múltiples rondas, la consulta a la base de conocimiento se optimiza. El gran modelo se llamará para consumir tokens adicionales.',
